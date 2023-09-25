@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djoser = "*"
+python-dotenv = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+mysqlclient = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
